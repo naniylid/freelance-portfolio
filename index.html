@@ -8,13 +8,25 @@
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <title>Freelance Portfolio</title>
   </head>
-  <body>
+  <body class="dark">
     <nav class="nav">
       <div class="container">
         <div class="nav-row">
           <a href="./index.html" class="logo"
             ><strong>Freelancer</strong> portfolio</a
           >
+          <button class="dark-mode-btn dark-mode-btn--active">
+            <img
+              src="./img/icons/Sun.svg"
+              alt="Light mode"
+              class="dark-mode-btn_icon"
+            />
+            <img
+              src="./img/icons/Moon.svg"
+              alt="Dark mode"
+              class="dark-mode-btn_icon"
+            />
+          </button>
           <ul class="nav-list">
             <li class="nav-list__item">
               <a href="./index.html" class="nav-list__link--active">Projects</a>
@@ -135,5 +147,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
